@@ -36,7 +36,7 @@ if st.button("⚡ 一鍵生成專業評估報告", type="primary"):
         past_case_reason = "消費者見此文字，其印象僅為商品避震功效之直接說明，並不具備商標之先天識別性。"
         
         # 呼叫後端大腦產生報告
-        report = generate_risk_report(trademark_input, past_case_reason)
+        report = generate_risk_report(trademark_input, product_class, past_case_reason)
         
     # 顯示成功訊息與報告
     st.success("✅ 報告生成完畢！")
