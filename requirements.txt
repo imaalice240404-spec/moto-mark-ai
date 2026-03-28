@@ -8,3 +8,4 @@ uvicorn
 
 # --- 環境變數 (用來藏你的 API 金鑰，保護機密) ---
 python-dotenv
+streamlit
