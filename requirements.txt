@@ -1,11 +1,19 @@
-# --- 網路爬蟲與資料抓取 ---
+# --- 網頁與資料處理 ---
+streamlit
+pandas
+openpyxl
+
+# --- AI 與後端大腦 ---
+google-generativeai
+python-dotenv
+chromadb
+
+# --- 語音雷達與檔案匯出 ---
+pypinyin
+python-docx
+
+# --- (以下保留你原本的爬蟲預備軍) ---
 requests
 beautifulsoup4
-
-# --- API 伺服器與後端 ---
 fastapi
 uvicorn
-
-# --- 環境變數 (用來藏你的 API 金鑰，保護機密) ---
-python-dotenv
-streamlit
